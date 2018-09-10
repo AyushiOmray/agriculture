@@ -1,1 +1,120 @@
-# agriculture
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+  <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+#d1{
+background: lightblue;
+font-style: cursive, sans-serif;
+text-align: center;
+}
+
+  </style>
+</head>
+
+
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><img src="farmers-gothic-1084205_1280.png" width="50px" height="50px"></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Vedios</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">News</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Options
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Purchase</a>
+        <a class="dropdown-item" href="#">Sell</a>
+    
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+  
+<div class="container">
+  <h3>krishipragati</h3>
+  <p>A platform For Farmers And Farming Related Results</p>
+</div>
+
+<p></p>
+
+<div class="row">
+  <div class="column">
+   <a href="#"><img src="ox-plough-253403_1920.jpg" alt="Snow" style="width:100%"></a>
+    <div class="container">
+    <h4><b>Vedios</b></h4> 
+    <p>Learn Farming</p> 
+  </div>
+  </div>
+  <div class="column">
+   <a href="#"> <img src="1.png" alt="Forest" style="width:100%"></a>
+    <div class="container">
+    <h4><b>News</b></h4> 
+    <p>Latest Information</p> 
+  </div>
+  </div>
+  <div class="column">
+    <a href="#"><img src="barley-872000_1920.jpg" alt="Mountains" style="width:100%"></a>
+    <div class="container">
+    <h4><b>Market</b></h4> 
+    <p>Sell And Purchase</p> 
+  </div>
+  </div>
+</div>
+
+<div id="d1">
+  <p>We Welcome All The Users With Grace And Warmth. Improve Your Farming Experience</p>
+  <p>Our Association Believes That Together we can Improve the Agriculture In India So That Now One sleeps Empty Stomach</p>
+  <p>Ensuring Food Availability along With Sustaining Our Ecosystem</p>
+
+
+  
+</div>
+
+<footer style="background-color: grey">
+  All rights are reserved under &copy; aaaaa.pvt
+</footer>
+
+</body>
+</html>
